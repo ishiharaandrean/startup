@@ -1,0 +1,249 @@
+nav{
+    background-color: black;
+    padding: 16px 16px 16px 16px;
+    text-align: center;
+    position: fixed;
+    display: block;
+    width: 100%;
+}
+body{
+    margin: 0 0 0 0;
+    height: 2000px;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav a{
+    color: white;
+    margin: 0 16px 16px 16px;
+    font-size: 16px;
+    transition: 0.45s;
+    display: inline-block;
+}
+nav a:hover{
+    text-shadow: 0 0 10px white;
+}
+header{
+    width: 100vw ;
+    height: 100vh;
+    background-image: url(../img/bg.header.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 40vh 0 0 0;
+    text-align: center;
+}
+h1{
+    color: white;
+    font-size: 56px;
+}
+p{
+    color: white;
+    font-size: 20px;
+    margin: 24px 0 24px 0;
+}
+header a{
+    background: white;
+    color: rgb(7, 31, 138);
+    padding: 16px 32px;
+    display: inline-block;
+    font-size: 18px;
+    transition: all 0.4s;
+}
+header a:hover{
+    background: transparent;
+    box-shadow: 0 0 10px white;
+    color: white    ;
+}
+header a:active{
+    transform: scale(0.95);
+    transition: all 0.1s;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+section{
+    padding: 50px 16px 40px 16px;
+}
+.abaut-me p{
+    color: black;
+}
+.abaut-me img{
+    float: right;
+    width: 300px;
+}
+.team p{
+    color: black;
+    text-align: center;
+}
+.team__list{
+    text-align: center;
+}
+.team__item{
+    width: 20%;
+    max-width: 450px;
+    min-width: 280px;
+    box-shadow: 0 0 10px rgb(7, 31, 138);
+    padding: 10px;
+    display: inline-block;
+    margin: 10px;
+    text-align: left;
+}
+.team__img{ 
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    background-position: center center;
+    margin-bottom: 16px;
+}
+.direkter{
+    background-image: url(../img/s原.JPG);
+}
+.team__item h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 14px;
+}
+.team__item p{
+    font-size: 19px;
+    text-align: left;
+}
+.team__item a{
+    background-color: rgb(7, 31, 138);
+    color: white;
+    display: block;
+    text-align: center ;
+    padding: 10px;
+    border: 1px rgb(7, 31, 138) solid;
+    transition: 0.4s;
+}
+.team__item a:hover{
+    color: rgb(7, 31, 138);
+    background-color: white;
+}
+.komura{
+    background-image: url(../img/Без\ названия.jpeg);
+    background-size: 105%;
+    background-position: top -10px center;
+}
+.kitasato{
+    background-image: url(../img/北里.jpeg);
+    background-position: center;
+    background-size: 120%;
+}
+.toyota{
+    background-image: url(../img/トヨタ.jpeg);
+    background-position: center;
+    background-size: 97%;
+}
+.team__item span{
+    color: rgb(7, 31, 138);
+}
+.prices{
+    color: white;
+    background-color: black;
+    text-align: center
+}
+.prices p{
+    text-align: center;
+}
+.prices ul{
+    width:30%;
+    min-width: 280px;
+    background-color: rgb(181, 175, 184);
+    text-align: center;
+    display: inline-block;
+    margin: 0 0 15px 0;
+}
+.prices li{
+    padding: 10px;
+    border-bottom: black 2px solid;
+    color: black;
+    font-size: 16px;
+}
+.prices button{
+    width: 40%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: rgb(133, 88, 216);
+    color: white;
+    transition: 0.4s
+}
+.basik button:hover{
+    box-shadow: 0 5px 10px rgb(133, 88, 216);
+}
+.prices .basik__name, .prices .clasik__name, .prices .pro__name{
+    background-color: rgb(211, 207, 207);
+    color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+.prices .basik__name{
+    background-color: rgb(155, 226, 47);
+}
+.prices .clasik__name{
+    background-color: yellow;
+}
+.prices .pro__name{
+    background-color: red;
+}
+.contact p{
+    color: black;
+}
+.contact{
+    text-align: center;
+}
+form{
+    max-width: 500px;
+    box-shadow: 0 0 20px;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+}
+input{
+    border: 2px solid rgb(19, 10, 44);
+    width: 100%;
+    padding: 12px;
+    font-size: 20px;
+    transition: 0.4s;
+    margin-bottom: 15px;
+}
+input:focus{
+    box-shadow: 0 0 13px rgb(19, 10, 44) ;
+}
+textarea{
+    width: 100%;
+    border: 2px solid rgb(19, 10, 44);
+    font-size: 20px;
+    padding: 12px;
+    resize: none;
+    transition: 0.4s;
+    margin-bottom: 15px;
+}
+textarea:focus{
+    box-shadow: 0 0 13px rgb(19, 10, 44) ;
+}
+button{
+    width: 100%;
+    background-color: rgb(19, 10, 44);
+    color: white;
+    padding: 12px;
+    font-size: 20px;
+    transition: 0.4s;
+    border: 2px solid rgb(19, 10, 44);
+}
+button:hover{
+    color: rgb(19, 10, 44);
+    background-color: white;
+}
+footer{
+    background-color: black;
+    padding: 15px;
+    text-align: center;
+}
+.footer-text{
+    font-size: 14px;    
+}
